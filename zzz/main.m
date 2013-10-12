@@ -10,5 +10,6 @@
 
 int main(int argc, const char * argv[])
 {
+    NSLog(@"init");
     return NSApplicationMain(argc, argv);
 }
