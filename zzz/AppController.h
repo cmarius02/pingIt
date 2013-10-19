@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+@class WindowController;
 
 @interface AppController : NSObject {
     IBOutlet NSTextField *label;
+    WindowController *winController;
 }
 
 - (IBAction)ping:(id)sender;
+- (IBAction)showPreferences:(id)sender;
 
 @end

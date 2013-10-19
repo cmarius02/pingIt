@@ -21,6 +21,8 @@
 		290D373C17FA172F00FB6565 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 290D373B17FA172F00FB6565 /* AppController.m */; };
 		290D373F17FA17DF00FB6565 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 290D373E17FA17DF00FB6565 /* SimplePing.m */; };
 		290D374917FBEF1600FB6565 /* ServerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 290D374817FBEF1600FB6565 /* ServerItem.m */; };
+		2987935618126890007952B9 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2987935518126890007952B9 /* WindowController.m */; };
+		2987935818126D3B007952B9 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2987935718126D3B007952B9 /* PreferencesWindow.xib */; };
 		29CB151117FF0D9400485DB9 /* greenLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 29CB151017FF0D9400485DB9 /* greenLight.png */; };
 		29CB151317FF0F4200485DB9 /* redLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 29CB151217FF0F4200485DB9 /* redLight.png */; };
 		29CB151517FF108D00485DB9 /* signOk.png in Resources */ = {isa = PBXBuildFile; fileRef = 29CB151417FF108D00485DB9 /* signOk.png */; };
@@ -62,6 +64,9 @@
 		290D373E17FA17DF00FB6565 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimplePing.m; path = ../../../../Users/marius/Downloads/SimplePing/SimplePing.m; sourceTree = "<group>"; };
 		290D374717FBEF1600FB6565 /* ServerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerItem.h; sourceTree = "<group>"; };
 		290D374817FBEF1600FB6565 /* ServerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerItem.m; sourceTree = "<group>"; };
+		2987935418126890007952B9 /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		2987935518126890007952B9 /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
+		2987935718126D3B007952B9 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
 		29CB151017FF0D9400485DB9 /* greenLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenLight.png; sourceTree = "<group>"; };
 		29CB151217FF0F4200485DB9 /* redLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redLight.png; sourceTree = "<group>"; };
 		29CB151417FF108D00485DB9 /* signOk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signOk.png; sourceTree = "<group>"; };
@@ -135,6 +140,9 @@
 				290D371517FA169B00FB6565 /* AppDelegate.h */,
 				290D371617FA169B00FB6565 /* AppDelegate.m */,
 				290D371817FA169B00FB6565 /* MainMenu.xib */,
+				2987935718126D3B007952B9 /* PreferencesWindow.xib */,
+				2987935418126890007952B9 /* WindowController.h */,
+				2987935518126890007952B9 /* WindowController.m */,
 				290D374717FBEF1600FB6565 /* ServerItem.h */,
 				290D374817FBEF1600FB6565 /* ServerItem.m */,
 				290D373D17FA17DF00FB6565 /* SimplePing.h */,
@@ -254,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2987935818126D3B007952B9 /* PreferencesWindow.xib in Resources */,
 				290D370E17FA169B00FB6565 /* InfoPlist.strings in Resources */,
 				29CB151317FF0F4200485DB9 /* redLight.png in Resources */,
 				290D371C17FA169B00FB6565 /* Images.xcassets in Resources */,
@@ -280,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				290D371717FA169B00FB6565 /* AppDelegate.m in Sources */,
+				2987935618126890007952B9 /* WindowController.m in Sources */,
 				290D374917FBEF1600FB6565 /* ServerItem.m in Sources */,
 				290D373C17FA172F00FB6565 /* AppController.m in Sources */,
 				290D371017FA169B00FB6565 /* main.m in Sources */,
